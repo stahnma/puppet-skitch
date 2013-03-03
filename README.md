@@ -1,11 +1,17 @@
-# Caffeine Puppet Module for Boxen
+# Skitch Puppet Module for Boxen
 
-Install [Caffeine](http://lightheadsw.com/caffeine), insomnia for your Mac.
+Install [Skitch](http://evernote.com/skitch/) for your Mac.
 
 ## Usage
 
 ```puppet
-include caffeine
+include skitch
+```
+
+It's also optional to install the older version of skitch:
+
+```puppet
+include skitch::legacy
 ```
 
 ## Required Puppet Modules
